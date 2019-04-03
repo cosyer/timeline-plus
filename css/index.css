@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5%;
+  font-family: "Microsoft YaHei", "SimHei", "STHeiti", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+body {
+  background-color: #333;
+  color: #bcbcbc;
+}
+
+.title {
+  font-size: 2.8rem;
+  width: 100rem;
+  margin: 1.5rem auto 2rem;
+}
+
+.time {
+  width: 1rem;
+  height: 180rem;
+  position: absolute;
+  left: 50%;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  background-color: #778f73;
+}
+
+.card {
+  position: relative;
+  max-width: 38rem;
+  margin: 0 auto;
+}
+.card .circle {
+  position: absolute;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 1.6rem;
+  background-color: #91a78d;
+}
+.card h2 {
+  color: #d3d3d3;
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+.card .pic-words {
+  overflow: hidden;
+}
+.card img {
+  display: block;
+  max-width: 8rem;
+  max-height: 7rem;
+  margin-right: 1rem;
+  float: left;
+}
+.card p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.left {
+  right: 20rem;
+}
+.left h2 {
+  text-align: right;
+  margin-right: 1rem;
+}
+.left .circle {
+  top: -0.08rem;
+  right: -2.84rem;
+}
+
+.right {
+  left: 23rem;
+}
+.right .circle {
+  top: -0.08rem;
+  left: -3.76rem;
+}
+
+/*# sourceMappingURL=index.css.map */
+#elapseClock {
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+}

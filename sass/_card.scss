@@ -1,0 +1,55 @@
+.card {
+  // position: absolute;
+  // left:
+  position: relative;
+  max-width: 38rem;
+  margin: 0 auto;
+
+  .circle {
+    position: absolute;
+    // top:0.5rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    background-color: $circle;
+  }
+
+  h2 {
+    color: $second;
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+  }
+  .pic-words {
+    overflow: hidden;
+  }
+  img {
+    display: block;
+    max-width: 8rem;
+    max-height: 7rem;
+    margin-right: 1rem;
+    float: left;
+  }
+  p {
+    // padding-left: 0.5rem;
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+}
+.left {
+  right: 20rem;
+  h2 {
+    text-align: right;
+    margin-right: 1rem;
+  }
+  .circle {
+    top: -0.08rem;
+    right: -2.84rem;
+  }
+}
+.right {
+  left: 23rem;
+  .circle {
+    top: -0.08rem;
+    left: -3.76rem;
+  }
+}

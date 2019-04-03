@@ -1,0 +1,14 @@
+// 编译命令
+// sass --watch sass/index.scss:css/index.css --style expanded --sourcemap
+
+@import "variables";
+
+@import "reset";
+
+@import "main";
+
+@import "card";
+
+@media screen and (max-width: 770px) {
+  @import "mobilefit";
+}

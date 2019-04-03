@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Love-Story~</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var displayMode = 1;
+        var together = new Date();
+        together.setFullYear(2018, 07, 06);
+        together.setHours(0);
+        together.setMinutes(0);
+        together.setSeconds(0);
+        together.setMilliseconds(0);
+        $("#elapseClock").click(function() {
+          displayMode *= -1;
+          timeElapse(together, displayMode);
+        });
+
+        timeElapse(together, displayMode);
+        timeElapse(together, displayMode);
+        setInterval(function() {
+          timeElapse(together, displayMode);
+        }, 500);
+      });
+    </script>
+  </head>
+  <body id="body">
+    <script src="js/data.js"></script>
+    <script src="js/controller.js"></script>
+  </body>
+</html>
